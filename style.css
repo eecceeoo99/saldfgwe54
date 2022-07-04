@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.fp {
+  position: fixed;
+  text-align: center;
+  background-color: #25d366;
+}
+.fp .right-button {
+  position: fixed;
+  bottom: 7%;
+  right: 18px;
+  width: 50px;
+  height: 50px;
+  background: url(./whatsapp.png);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-color: #25d366;
+  background-size: 30px;
+  background-position: center;
+  float: right;
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0 -2 3px -1px tomato;
+}
+/* .fp .widgetlabel {
+  position: relative;
+  right: 10px;
+  top: 10px;
+  white-space: nowrap;
+  border: 0px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 10px 15px 10px 20px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgb(0, 18, 46 / 24%) 0 6px 32px 0;
+} */
+
+nav {
+  background-color: rgb(235, 235, 235);
+  height: 50px;
+  border: #bbb solid 1px;
+}
+.price {
+  color: green;
+}
+.input-group {
+  /* width: 80%; */
+  padding-bottom: 20px;
+}
+.w80 {
+  /* padding: 25px; */
+  margin: 0 25px;
+  /* width: 80%; */
+}
+
+.pad25 {
+  padding: 0 0 10px 0;
+}
+#w20p {
+  width: 200px;
+}
+#more {
+  display: none;
+}
+#myBtn {
+  padding: 0;
+  margin: 10px;
+  color: dodgerblue;
+}
+.ri {
+  text-align: right;
+}
+
+.le {
+  text-align: left;
+  align-items: left;
+}
+.icon {
+  padding: 5px;
+}

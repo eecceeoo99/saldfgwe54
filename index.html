@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>بخور العيد</title>
+  </head>
+
+  <body style="background-color: #ededed;">
+      <center>
+      <nav>
+        
+          <img src="2.png" width="50" class="icon">
+<!-- 
+          <img src="./whatsapp.png" width="35">
+          <img src="./facebook.png" width="45" >
+<img src="./instagram.png" width="65"> -->
+        </nav>
+        
+    <div class="w80">
+        <br>
+    
+        <h3>
+          🎁 (المبخرة الخشبية)<br/>
+        </h3>
+        <h5>
+            <br/>🥢 طهر منزلك بأجود أنواع البخور <br/>📦 بعلبة خشبية مميزة
+            وجميلة <br/>✨ تعطي رائحة عَطِرة
+          </h5>
+        
+        <div class="ecommerce-gallery" data-mdb-zoom-effect="true" data-mdb-auto-height="true">
+          <div class="row py-3 shadow-5">
+            <div class="col-12 mb-1">
+              <div class="lightbox">
+                <img
+                  src="p2.jpg"
+                  alt="Gallery image 1"
+                  class="ecommerce-gallery-main-img active w-100"
+                />
+              </div>
+            </div>
+            <div class="col-3 mt-1">
+              <img
+                src="p1.jpg"
+                data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/14a.webp"
+                alt="Gallery image 1"
+                class="active w-100"
+              />
+            </div>
+            <div class="col-3 mt-1">
+              <img
+                src="p1.jpg"
+                data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp"
+                alt="Gallery image 2"
+                class="w-100"
+              />
+            </div>
+            <div class="col-3 mt-1">
+              <img
+                src="p1.jpg"
+                data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp"
+                alt="Gallery image 3"
+                class="w-100"
+              />
+            </div>
+            <div class="col-3 mt-1">
+              <img
+                src="p1.jpg"
+                data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/15a.webp"
+                alt="Gallery image 4"
+                class="w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      </center>
+      <div class="w80">
+        <div class="pad25">
+      <h5 class="ri">السعر:<span class="price"> 149.99TL</span></h5>
+        <h5 class="ri">وصف المنتج:</h5>
+        <p class="ri">
+            فوائد البخور واستخداماته:
+          <span id="dots" class="ri">...<a onclick="myFunction()" id="myBtn" >عرض المزيد</a>
+          </span><span class="ri" id="more">
+            <br> ✅ تطهير الملابس والتخلص من الميكروبات والجراثيم.
+            <br> ✅ تطييب رائحة المنازل والمساجد.
+            <br> ✅ القضاء على الحشرات.
+            <br> ✅ التخلص من الراوئح السيئة مثل رائحة الثوم والبصل.
+            <br> <a onclick="myFunction()" id="myBtn" >عرض أقل</a>
+          </span>
+        </p>
+      </div>
+        <form action="log.php" method="POST">
+          <div class="input-group" id="w20p">
+            <span class="input-group-text">العدد</span>
+            <input
+              type="number"
+              aria-label="number"
+              class="form-control"
+              name="Number"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <span class="input-group-text">الاسم الكامل</span>
+            <input
+              type="text"
+              aria-label="Full name"
+              class="form-control"
+              name="FullName"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <span class="input-group-text">رقم الهاتف</span>
+            <input 
+            type="tel" 
+            aria-label="tel" 
+            class="form-control" 
+            name="Phone"
+            required />
+          </div>
+          <div class="input-group">
+            <span class="input-group-text">العنوان</span>
+            <input
+              type="text"
+              aria-label="text"
+              class="form-control"
+              name="Location"
+              required
+            />
+          </div>
+          <center>
+          <input type="submit" class="btn btn-primary btn-rounded" value="إرسال الطلب">
+          <br><br><br>
+          <p>تسوق إلكتروني آمن 100%</p>
+        </center>
+        
+       
+      
+      </div>
+    </form>
+  </div>
+
+  <div class="fp">
+      <div class="right-button"></div>
+      <!-- <span class="widgetlabel">
+        إرسال رسالة
+      </span> -->
+    </div>
+  
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "عرض المزيد";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "عرض أقل";
+    moreText.style.display = "inline";
+  }
+}</script>
+<!-- //     <script
+//       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+//       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+//       crossorigin="anonymous"
+//     >
+//     </script>
+//     <script
+//       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+//       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+//       crossorigin="anonymous"
+//     ></script>
+//     <script
+//       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+//       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+//       crossorigin="anonymous"
+//     ></script> -->
+
+  </body>
+</html>
